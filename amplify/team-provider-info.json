@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-qaparser-staging-125349-authRole",
+      "UnauthRoleArn": "arn:aws:iam::737375523686:role/amplify-qaparser-staging-125349-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::737375523686:role/amplify-qaparser-staging-125349-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-qaparser-staging-125349-deployment",
+      "UnauthRoleName": "amplify-qaparser-staging-125349-unauthRole",
+      "StackName": "amplify-qaparser-staging-125349",
+      "StackId": "arn:aws:cloudformation:us-east-1:737375523686:stack/amplify-qaparser-staging-125349/25b0f1d0-9be6-11ed-bf07-12dd93be99e1",
+      "AmplifyAppId": "d36ii3zbitkfc5"
+    },
+    "categories": {
+      "auth": {
+        "qaparser": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+type Post @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String
+  email: String
+  Waitlist: Waitlist @hasOne
+  avatar: AWSURL
+}
+
+type Waitlist @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  email: AWSEmail
+  date_time: AWSDateTime
+  company: String
+  role: String
+}
+
+type APIDOCs @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  context: String
+  prompt: String
+  SignUp: Waitlist @hasOne
+}
+ 
